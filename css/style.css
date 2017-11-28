@@ -1,0 +1,46 @@
+body {
+  background: #333;
+  margin: 2rem;
+}
+#image-compare-container {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+  padding-top: 42.3%;
+}
+#image-compare-container > img {
+  width: 100%;
+  position: absolute;
+  top: 0; height: 100%;
+}
+#image-clipper {
+  width: 50%; position: absolute;
+  top: 0; bottom: 0;
+  overflow: hidden;
+}
+#image-clipper > img {
+  position: absolute;
+  top: 0; bottom: 0;
+  height: 100%;
+}
+
+.enhanced-ux .js-unsupported {
+    display: block;
+}
+.photoslider__border {
+    transform: translateX(581.5px);
+    height: 100%;
+    width: 4px;
+    background: #000;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.xs-z2 {
+    z-index: 200!important;
+}
+.xs-absolute {
+    position: absolute!important;
+}

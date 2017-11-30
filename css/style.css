@@ -6,7 +6,7 @@ body {
   height: 500px;
 }
 
-#image-compare-container {
+/*#image-compare-container {
   display: inline-block;
   line-height: 0;
   position: relative;
@@ -26,7 +26,30 @@ body {
 #image-clipper > img {
   position: absolute;
   top: 0; bottom: 0;
+  height: 100%;*/
+
+.image-compare-container {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+  padding-top: 42.3%;
+}
+.image-compare-container > img {
+  width: 100%;
+  position: absolute;
+  top: 0; height: 100%;
+}
+.image-clipper {
+  width: 50%; position: absolute;
+  top: 0; bottom: 0;
+  overflow: hidden;
+}
+.image-clipper > img {
+  position: absolute;
+  top: 0; bottom: 0;
   height: 100%;
+
 }
 
 /*.enhanced-ux .js-unsupported {
